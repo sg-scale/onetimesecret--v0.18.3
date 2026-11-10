@@ -44,7 +44,7 @@ jobs:
 
       # Step 3: Set up Fly.io CLI
       - name: Set up Fly.io CLI
-        uses: superfly/flyctl-actions/setup-flyctl@1.5
+        uses: superfly/flyctl-actions/setup-flyctl@1.6
 
       # Step 4: Deploy to Fly.io
       - name: Deploy to Fly.io
