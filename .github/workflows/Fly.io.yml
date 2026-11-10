@@ -33,7 +33,7 @@ jobs:
     steps:
       # Step 1: Check this out
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       # Step 2: Always leave a note
       - name: Record commit hash and display version info
